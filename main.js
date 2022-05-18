@@ -9,16 +9,14 @@
 // }
 // console.log (array1([2, 52, 10]));
 
-
 // function array2(array){
 //     var array3=[]
 //     for (var i =0;i<array.length;i++){
 //     array3.push(i +"."+ array[i] )
 //     }
-//     return array3 
+//     return array3
 // }
 // console.log(array2([2,3,4,5,6,7,8]))
-
 
 // function array3 (array){
 //     var array4=[]
@@ -30,7 +28,6 @@
 // return array
 // }
 // console.log(array3([2,3,4,5,6,7]))
-
 
 // function numbers (x){
 //     for(var i =0; i<2; i++){
@@ -57,17 +54,15 @@
 
 // function userinfo (age,name,lastname,num){
 
-
 //     if (age>18){
 //       for(var i =0;i<num;i++){
 //       console.log(name, lastname)
 //     }
-    
+
 //   }
 //   else{
 //     console.log(age,name,lastname,num)
 //   }
-
 
 // }
 // userinfo(19,"shimon","berry",5)
@@ -122,7 +117,6 @@
 //   console.log(arraynum[i])
 // }
 
-
 // var arrayname =["shimon","daniel","batel","shlomo","aviel"]
 // for (var i=0;i<arrayname.length;i++){
 //   console.log(arrayname[i])
@@ -135,31 +129,51 @@
 //   }
 // }
 // function arrayuser (){
-//   var array = [] 
+//   var array = []
 //   for (var i=0;i<5;i++){
-  
+
 //     var prompt1= prompt("enter name")
-   
+
 //     array.push(prompt1)
-  
+
 //   }
 //   console.log(array)
 // }
 // arrayuser()
 
+// for (var i=1;i<100;i++){
+//    if (i%3==0 && i%5==0){
+//     console.log("fizz buzz")
+//   }
+//  else if (i%3==0){
+//     console.log("fizz")
+//   }
+//   else if(i%5==0){
+//     console.log("buzz")
+//   }
+//   else{
+//     console.log(i)
+//   }
+// }
+//parsTnt
 
-for (var i=1;i<100;i++){
-   if (i%3==0 && i%5==0){
-    console.log("fizz buzz")
-  }
- else if (i%3==0){
-    console.log("fizz")
-  }
-  else if(i%5==0){
-    console.log("buzz")
-  }
-  else{
-    console.log(i)
+// function digit (){
+//  var num = 673
+//  var result =num%10;
+
+// }
+// digit()
+
+var array = [3, "dkv", 8, "nvkjnjg"];
+for (var i = 0; i < array.length; i++) {
+  if (array[i]*0 !=0) {
+    array[i] = "not-number";
   }
 }
+console.log(array);
+var x=9
+var y="nv ndnvie kein"
+y.s
+document.write(y)
+
 
